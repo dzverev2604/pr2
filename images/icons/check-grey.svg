@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="10px" viewBox="0 0 15 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="03.-Rarity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rarity-New-Desktop" transform="translate(-111.000000, -689.000000)" fill="#25262B" fill-rule="nonzero">
+            <g id="Main" transform="translate(0.000000, 410.000000)">
+                <g id="Filters" transform="translate(104.000000, 1.000000)">
+                    <g id="Fieldset" transform="translate(0.000000, 165.000000)">
+                        <g id="Checkbox" transform="translate(1.000000, 105.000000)">
+                            <g id="Group" transform="translate(3.000000, 3.000000)">
+                                <path d="M16.4330681,5.18343902 C16.6771513,4.93936679 17.0728794,4.93937562 17.3169516,5.18345875 C17.5547656,5.42128334 17.560855,5.80307595 17.3352261,6.04827343 L17.3169319,6.06734223 L8.56693187,14.8169516 C8.32911855,15.0547543 7.9473479,15.060856 7.70214711,14.8352536 L7.68307799,14.8169615 L3.30807799,10.4423521 C3.06398941,10.1982853 3.06397175,9.8025572 3.30803853,9.55846862 C3.54584719,9.32063872 3.92763939,9.31452374 4.17285198,9.54013622 L4.19192201,9.55842916 L8.12489583,13.4911458 L16.4330681,5.18343902 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

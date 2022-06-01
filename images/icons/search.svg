@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ph-magnifying-glass</title>
+    <g id="03.-Rarity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rarity-New-Desktop" transform="translate(-380.000000, -501.000000)">
+            <g id="Main" transform="translate(0.000000, 410.000000)">
+                <g id="Filters" transform="translate(104.000000, 1.000000)">
+                    <g id="Fieldset" transform="translate(0.000000, 40.000000)">
+                        <g id="Button" transform="translate(261.000000, 35.000000)">
+                            <g id="ph-magnifying-glass" transform="translate(15.000000, 15.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                                <path d="M9.0625,1.875 C5.09295336,1.875 1.875,5.09295336 1.875,9.0625 C1.875,13.0320466 5.09295336,16.25 9.0625,16.25 C13.0320466,16.25 16.25,13.0320466 16.25,9.0625 C16.25,5.09295336 13.0320466,1.875 9.0625,1.875 Z M9.0625,3.125 C12.3416907,3.125 15,5.7833093 15,9.0625 C15,12.3416907 12.3416907,15 9.0625,15 C5.7833093,15 3.125,12.3416907 3.125,9.0625 C3.125,5.7833093 5.7833093,3.125 9.0625,3.125 Z" id="Oval" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                <path d="M13.2606802,13.2612137 C13.4984995,13.0233944 13.880292,13.0172965 14.1254945,13.24292 L14.1445637,13.2612138 L17.941484,17.0581349 C18.1855616,17.3022126 18.1855616,17.6979407 17.9414839,17.9420183 C17.7036646,18.1798376 17.3218721,18.1859355 17.0766696,17.960312 L17.0576004,17.9420183 L13.2606801,14.1450972 C13.0166024,13.9010195 13.0166025,13.5052913 13.2606802,13.2612137 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
