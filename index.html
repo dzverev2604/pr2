@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Megapont - Pixel Art NFT на стеках</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.jpg" type="image/x-icon">
+	<title>Solataurs</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta property="og:image" content="img/preview.png">
+	<meta property="twitter:image" content="img/preview.png">
+	<meta property="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.megapont.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.megapont.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.megapont.com/favicon-16x16.png">
+    <link rel="manifest" href="https://www.megapont.com/site.webmanifest">
+    <meta name="next-head-count" content="7">
+    <link rel="preload" href="./index_files/8c0892832ba4e130.css" as="style">
+    <link rel="stylesheet" href="./index_files/8c0892832ba4e130.css" data-n-g=""><noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="./index_files/polyfills-a40ef1678bae11e696dba45124eadd70.js"></script>
+    <script src="./index_files/webpack-4f00f2f934ee499e.js" defer=""></script>
+    <script src="./index_files/framework-dc33c0b5493501f0.js" defer=""></script>
+    <script src="./index_files/main-b3286f434da5a8e8.js" defer=""></script>
+    <script src="./index_files/_app-29eb657721fb2e09.js" defer=""></script>
+    <script src="./index_files/261-6b65304eb52ca4fc.js" defer=""></script>
+    <script src="./index_files/898-8fba1dbfb36807d2.js" defer=""></script>
+    <script src="./index_files/index-b66e0efadd77e2a7.js" defer=""></script>
+    <script src="./index_files/_buildManifest.js" defer=""></script>
+    <script src="./index_files/_ssgManifest.js" defer=""></script>
+    <script src="./index_files/_middlewareManifest.js" defer=""></script>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+</head>
+<body>
+	
+	<main>
+		<style>
+			#tr-popup,
+			#tr-popup * {
+				all: unset;
+			}
+	
+			#tr-popup {
+				font: 15px "Segoe UI", Arial, Helvetica, sans-serif;
+				color: rgb(255, 255, 255);
+				padding: 24px;
+				display: block;
+				z-index: 2147483647;
+				position: absolute;
+				max-width: 400px;
+				min-width: 300px;
+				direction: ltr;
+				text-align: left;
+				background: #fff;
+				border-radius: 2px;
+				box-sizing: border-box;
+				box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 12px 24px 0 rgba(51, 51, 51, 0.3);
+				transition: opacity, visibility;
+				transition-duration: 0.2s;
+			}
+	
+			#tr-popup[data-hidden="true"] {
+				opacity: 0;
+				visibility: hidden;
+			}
+	
+			#tr-popup[data-position="top"] {
+				margin-top: -12px;
+			}
+	
+			#tr-popup[data-position="bottom"] {
+				margin-top: 12px;
+			}
+	
+			#tr-popup .tr-popup__arrow {
+				top: 100%;
+				left: 50%;
+				width: 26px;
+				height: 12px;
+				display: block;
+				position: absolute;
+				margin-left: -13px;
+				margin-top: -1px;
+				background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIxMiI+PHBhdGggZD0iTTAgMGwxMyAxMkwyNiAweiIgb3BhY2l0eT0iLjEiLz48cGF0aCBkPSJNMSAwbDEyIDExTDI1IDB6IiBmaWxsPSIjZmZmIi8+PC9zdmc+") no-repeat;
+			}
+	
+			#tr-popup[data-position="bottom"] .tr-popup__arrow {
+				top: auto;
+				bottom: 100%;
+				margin-bottom: -1px;
+				transform: rotate(180deg);
+			}
+	
+			#tr-popup .tr-popup__value,
+			#tr-popup .tr-popup__block {
+				word-wrap: break-word;
+				white-space: pre-wrap;
+			}
+	
+			[data-type="trSpan"][data-translated="true"][data-source-lang="ja"],
+			[data-type="trSpan"][data-translated="true"][data-source-lang="zh"],
+			#tr-popup .tr-popup__title_original,
+			#tr-popup .tr-popup__block_a,
+			#tr-popup .tr-popup__block_b,
+			#tr-popup .tr-popup__button {
+				font-family: "Segoe UI", Arial, Helvetica, sans-serif !important;
+			}
+	
+			#tr-popup .tr-popup__title_original {
+				font-weight: bold;
+			}
+	
+			#tr-popup .tr-popup__block {
+				display: block;
+			}
+	
+			#tr-popup .tr-popup__link {
+				cursor: pointer;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+	
+			#tr-popup .tr-popup__link_suggest {
+				color: #1378d7;
+				font-size: 13px;
+				line-height: 18px;
+				margin-right: 22px;
+			}
+	
+			#tr-popup .tr-popup__link_suggest:hover,
+			#tr-popup .tr-popup__link_suggest:active {
+				color: #000;
+			}
+	
+			#tr-popup .tr-popup__logo {
+				height: 18px;
+				opacity: 0.3;
+				display: inline-block;
+				transition: opacity 0.2s;
+				vertical-align: top;
+			}
+	
+			#tr-popup .tr-popup__logo_company {
+				width: 34px;
+				filter: brightness(0);
+				background: url("https://yastatic.net/s3/trbro/v20.5.1.0/i/service_logo.svg");
+				background-size: 34px;
+				background-position: 0 -18px;
+			}
+	
+			#tr-popup[lang="ru"] .tr-popup__logo_company {
+				background-position: 0 0;
+			}
+	
+			#tr-popup .tr-popup__logo_service {
+				width: 42px;
+				background: url("https://yastatic.net/s3/trbro/v20.5.1.0/i/service_name.svg");
+				margin-left: 2px;
+				background-size: 63px;
+				background-position: 0 -18px;
+			}
+	
+			#tr-popup[lang="ru"] .tr-popup__logo_service {
+				width: 57px;
+				background-position: 0 0;
+			}
+	
+			#tr-popup[lang="uk"] .tr-popup__logo_service {
+				width: 56px;
+				background-position: 0 -36px;
+			}
+	
+			#tr-popup[lang="tr"] .tr-popup__logo_service {
+				width: 25px;
+				background-position: 0 -54px;
+			}
+	
+			#tr-popup .tr-popup__link_service:hover .tr-popup__logo {
+				opacity: 0.6;
+			}
+	
+			#tr-popup .tr-popup__input {
+				width: 100%;
+				height: 80px;
+				resize: none;
+				border: 2px solid #e5e5e5;
+				padding: 8px;
+				display: block;
+				font-size: 15px;
+				box-sizing: border-box;
+				border-radius: 2px;
+			}
+	
+			#tr-popup .tr-popup__input:focus {
+				border-color: #bbb;
+			}
+	
+			#tr-popup .tr-popup__block_a,
+			#tr-popup .tr-popup__block_b {
+				margin-top: 16px;
+			}
+	
+			#tr-popup .tr-popup__block_a {
+				display: flex;
+				justify-content: space-between;
+			}
+	
+			#tr-popup .tr-popup__block_b {
+				position: relative;
+			}
+	
+			#tr-popup .tr-popup__block_submit {
+				text-align: right;
+				margin-top: 24px;
+			}
+	
+			#tr-popup .tr-popup__overlay {
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				position: absolute;
+			}
+	
+			#tr-popup .tr-popup__overlay_submitted {
+				color: #999;
+				z-index: 1;
+				display: flex;
+				background: #fff;
+				align-items: center;
+				justify-content: center;
+			}
+	
+			#tr-popup:not([data-expanded="true"]) .tr-popup__block_b,
+			#tr-popup:not([data-submitted="true"]) .tr-popup__overlay_submitted {
+				display: none;
+			}
+	
+			#tr-popup .tr-popup__menu {
+				font-size: 13px;
+				opacity: 0;
+				visibility: hidden;
+				white-space: nowrap;
+				position: absolute;
+				bottom: 100%;
+				margin-bottom: 8px;
+				padding: 4px 14px;
+				z-index: 1;
+				background-color: #f5f5f5;
+				border: 1px solid #bbb;
+				border-radius: 2px;
+				box-shadow: 0px 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 14px 0 rgba(51, 51, 51, 0.3);
+			}
+	
+			#tr-popup[data-menu-position="left"] .tr-popup__menu {
+				right: 0;
+			}
+	
+			#tr-popup[data-menu="true"] .tr-popup__menu {
+				opacity: 1;
+				visibility: visible;
+			}
+	
+			#tr-popup .tr-popup__menu:hover {
+				background-color: #efefef;
+			}
+	
+			#tr-popup .tr-popup__button {
+				cursor: pointer;
+				display: inline-block;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+	
+			#tr-popup .tr-popup__button_menu,
+			#tr-popup .tr-popup__button_close {
+				top: 4px;
+				width: 20px;
+				height: 20px;
+				opacity: 0.3;
+				position: absolute;
+			}
+	
+			#tr-popup .tr-popup__button_close {
+				right: 4px;
+				background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTkuMjkzIDEwTDYuMTQ2IDYuODU0YS41LjUgMCAxIDEgLjcwOC0uNzA4TDEwIDkuMjkzbDMuMTQ2LTMuMTQ3YS41LjUgMCAwIDEgLjcwOC43MDhMMTAuNzA3IDEwbDMuMTQ3IDMuMTQ2YS41LjUgMCAwIDEtLjcwOC43MDhMMTAgMTAuNzA3bC0zLjE0NiAzLjE0N2EuNS41IDAgMCAxLS43MDgtLjcwOEw5LjI5MyAxMHoiLz48L3N2Zz4=");
+			}
+	
+			#tr-popup .tr-popup__button_menu {
+				right: 24px;
+				background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjAiIHdpZHRoPSIyMCI+PHBhdGggZD0ibTUgNnYxaDEwdi0xaC0xMHptMCAzdjFoMTB2LTFoLTEwem0wIDN2MWgxMHYtMWgtMTB6Ii8+PC9zdmc+");
+			}
+	
+			#tr-popup .tr-popup__button_menu:hover,
+			#tr-popup .tr-popup__button_close:hover {
+				opacity: 0.5;
+			}
+	
+			#tr-popup .tr-popup__button_close:active {
+				opacity: 0.6;
+			}
+	
+			#tr-popup[data-menu="true"] .tr-popup__button_menu {
+				opacity: 1;
+			}
+	
+			#tr-popup .tr-popup__button_submit {
+				color: rgb(255, 255, 255);
+				height: 28px;
+				padding: 0 16px;
+				font-size: 13px;
+				min-width: 112px;
+				background: #fc0;
+				box-sizing: border-box;
+				text-align: center;
+				line-height: 28px;
+				border-radius: 2px;
+			}
+	
+			#tr-popup .tr-popup__button_submit:hover {
+				background: #ffb800;
+			}
+	
+			#tr-popup .tr-popup__button_submit:active {
+				background: #ffa400;
+			}
+	
+			#tr-popup[data-invalid="true"] .tr-popup__button_submit {
+				color: rgba(255, 255, 255, 0.5);
+				cursor: default;
+				background: rgba(255, 255, 255, 0.1);
+			}
+	
+			[data-type="trSpan"][data-selected="true"] {
+				color: rgb(255, 255, 255) !important;
+				background: #cce4f7 !important;
+			}
+	
+			[data-type="trSpan"] {
+				font-size: inherit !important;
+			}
+		</style>
+	</head>
+	
+	<body>
+				<div class="text-center mt-20 md:mt-32 lg:mt-60">
+					<h1 class="text-3xl lg:text-6xl font-syne font-bold uppercase">
+						<ya-tr-span data-index="4-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+							data-value="MEGAPONT IS AN " data-translation="MEGAPONT " data-type="trSpan"
+							data-selected="false">MEGAPONT IS AN </ya-tr-span><br>
+						<ya-tr-span data-index="4-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+							data-value="NFT membership club for pioneers"
+							data-translation="- ЭТО клуб членов NFT для пионеров" data-type="trSpan" data-selected="false">
+							NFT MEMBERSHIP CLUB FOR PIONEERS</ya-tr-span>
+					</h1>
+				</div>
+				<div class="bg-gray-200 mt-10"><img src="./index_files/hero.svg"></div>
+				
+				<div class="md:flex pt-10 md:pt-20 pb-20 mx-6 md:mx-10 lg:py-32" id="about">
+					<section class="banner" id="banner">
+						<div class="container">
+							<div class="banner-row">
+								<div class="banner-gif">
+									<img src="img/gif.gif">
+								</div>
+								<div class="banner-block">
+									<div class="banner-box">
+										<div class="banner-box_row">
+											<div class="banner-box_inner">
+												<h4 class="banner-box__title">Supply</h4>
+												<p class="banner-box__text">500</p>
+											</div>
+											<div class="banner-box_inner">
+												<h4 class="banner-box__title"><span id="m"></span> <span id="month"></span></h4>
+												<p class="banner-box__text" id="time"></p>
+											</div>
+										</div>
+											<button class="btn" id="mint">
+												<span class="btn__icons">
+													<img src="img/sol.png" alt="sol" class="sol">
+												</span>
+												<span class="btn__text">Free Mint</span>
+												<span class="price"><span id="price">0</span> SOL</span>
+											</button>
+										</div>
+										<p class="banner-form__text">Connect your wallet to start minting!</p>
+										<p class="banner-form__text">8 left</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
+				<hr class="border-dark absolute left-0 right-0">
+				<div class="md:flex py-20 lg:py-32 sm:px-0 mx-6 md:mx-10">
+					<div class="md:w-1/2 text-right hidden sm:flex lg:flex-row-reverse lg:pr-24 relative">
+						<div class="lg:pl-0 md:text-left lg:text-right hidden md:block w-full my-auto">
+							<div class="text-right flex flex-row-reverse">
+								<div class="grid grid-cols-3 gap-5 md:pr-24 lg:pr-0 xl:w-2/3">
+									<div> </div>
+									<div><img src="./index_files/1.gif" class="w-full"></div>
+									<div><img src="./index_files/2.gif" class="w-full"></div>
+									<div><img src="./index_files/3.gif" class="w-full"></div>
+									<div><img src="./index_files/4.gif" class="w-full"></div>
+									<div><img src="./index_files/5.gif" class="w-full"></div>
+									<div><img src="./index_files/6.jpeg" class="w-full"></div>
+									<div><img src="./index_files/7.gif" class="w-full"></div>
+									<div><img src="./index_files/8.gif" class="w-full"></div>
+									<div><img src="./index_files/9.gif" class="w-full"></div>
+									<div><img src="./index_files/10.gif" class="w-full"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="md:w-1/2 justify-items-end lg:pr-40">
+						<p class="text-xl md:text-2xl lg:text-4xl font-syne font-bold mb-12">
+							<ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="WHAT IS MEGAPONT " data-translation="ЧТО ТАКОЕ MEGAPONT " data-type="trSpan">WHAT IS MEGAPONT </ya-tr-span><br>
+							<ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="APE CLUB?" data-translation="APE CLUB?" data-type="trSpan">APE CLUB?
+							</ya-tr-span>
+						</p>
+						<div class="md:hidden pb-10 w-full">
+							<div class="grid grid-cols-3 gap-5 md:pr-24 lg:pr-0 xl:w-2/3">
+								<div> </div>
+								<div><img src="./index_files/1.gif" class="w-full"></div>
+								<div><img src="./index_files/2.gif" class="w-full"></div>
+								<div><img src="./index_files/3.gif" class="w-full"></div>
+								<div><img src="./index_files/4.gif" class="w-full"></div>
+								<div><img src="./index_files/5.gif" class="w-full"></div>
+								<div><img src="./index_files/6.jpeg" class="w-full"></div>
+								<div><img src="./index_files/7.gif" class="w-full"></div>
+								<div><img src="./index_files/8.gif" class="w-full"></div>
+								<div><img src="./index_files/9.gif" class="w-full"></div>
+								<div><img src="./index_files/10.gif" class="w-full"></div>
+							</div>
+						</div>
+						<p class="">
+							<ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="Megapont Ape Club is a celebration of the more scenic members of the Megapont world. "
+								data-translation="Megapont Ape Club - это праздник более живописных членов мира Megapont. "
+								data-type="trSpan">Megapont Ape Club is a celebration of the more scenic members of the Megapont world. Due to accelerated evolution, they have inherited many behaviours of the closely related human species. Both the good and bad.
+							</ya-tr-span>
+							<ya-tr-span data-index="8-1" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="Due to accelerated evolution, they have inherited many behaviours of the closely related human species. "
+								data-translation="Из-за ускоренной эволюции они унаследовали многие модели поведения близкородственных человеческих видов. "
+								data-type="trSpan"></ya-tr-span>
+							<ya-tr-span data-index="8-2" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="Both the good and bad." data-translation="Как хорошие, так и плохие."
+								data-type="trSpan"></ya-tr-span>
+						</p><img src="./index_files/megapont_ape_club.svg" class="pt-10">
+						<p class=" mt-10">
+							<ya-tr-span data-index="9-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="Chimpanzees have evolved at an accelerated rate due to a genetic mutation and as such is considered the kingmakers within Megapont. "
+								data-translation="Шимпанзе развивались ускоренными темпами из-за генетической мутации и как таковые считаются королями в Megapont. "
+								data-type="trSpan">Chimpanzees have evolved at an accelerated rate due to a genetic mutation and as such is considered the kingmakers within Megapont. They currently reside outside of Megapont plaza and live in the idyllic paradise outside the metropolis. </ya-tr-span>
+							<ya-tr-span data-index="9-1" data-translated="true" data-source-lang="en" data-target-lang="ru"
+								data-value="They currently reside outside of Megapont plaza and live in the idyllic paradise outside the metropolis."
+								data-translation="В настоящее время они проживают за пределами Megapont plaza и живут в идиллическом раю за пределами мегаполиса."
+								data-type="trSpan"></ya-tr-span>
+						</p>
+					</div>
+				</div>
+				<hr class="border-dark absolute left-0 right-0">
+				<div class="md:flex py-20 mx-6 md:mx-10 md:px-0 lg:py-32">
+					<div class="md:w-1/2 lg:text-right md:flex lg:flex-row-reverse lg:pr-24 relative">
+						<h3 class="text-xl md:text-2xl lg:text-4xl font-syne font-bold">MEGAPONT
+							<!-- --> <span class="lg:w-full md:block">ROBOT</span><span
+								class="lg:w-full md:block">FACTORY</span>
+						</h3>
+					</div>
+					<div class="md:w-1/2 text-base pt-5 md:pt-0 lg:pr-40">
+						<p>The Megapont Robot Factory has been discovered, apes are busy getting the factory operational for
+							a completely customisable and interactive mint process.</p><img src="./index_files/robots.svg"
+							class="w-full mt-5">
+						<p class="pt-5 mb-10">Megapont Apes can claim one empty robot, also known as a mainframe and a
+							one-component crate. You can give your robot a name and trade them, along with components on the
+							marketplace.</p><a
+							class="bg-megapont-dark hover:bg-opacity-90 rounded-lg text-white p-5 px-10 md:px-15 inline-block"
+							href="https://www.megapont.com/robots"><span class="pl-3 text-sm font-medium">Visit the Robot
+								Factory</span></a>
+					</div>
+				</div>
+				<hr class="border-dark absolute left-0 right-0">
+				<div class="md:flex py-20 mx-6 md:mx-10 md:px-0 lg:py-32">
+					<div class="md:w-1/2 lg:text-right md:flex lg:flex-row-reverse lg:pr-24 relative text-center"><img
+							src="./index_files/megacoin.png" width="330" height="334" class="w-[230px] h-[334px] inline">
+					</div>
+					<div class="md:w-1/2 text-base pt-5 md:pt-0 lg:pr-40">
+						<p class="text-xl md:text-2xl lg:text-4xl font-syne font-bold mb-12 uppercase">MEGACOIN</p>
+						<p>MEGACOIN is the token for the web3 community on Stacks. MEGA is the governance token for Megapont
+							and the community initiatives that move the space towards a better, more decentralised future.
+						</p>
+						<p class="pt-5 mb-10">The claim period for MEGA opens in May for holders of Megapont Apes, Robots
+							and Components. With the claim for MegaKongs opening shortly after.</p>
+					</div>
+				</div>
+				<hr class="border-dark absolute left-0 right-0">
+				<div class="md:flex py-20 mx-6 md:mx-10 md:px-0 lg:py-32">
+					<div class="md:w-1/2 lg:text-right md:flex lg:flex-row-reverse lg:pr-24 relative">
+						<h3 class="text-xl md:text-2xl lg:text-4xl font-syne font-bold uppercase">MegaKongs</h3>
+					</div>
+					<div class="md:w-1/2 text-base pt-5 md:pt-0 lg:pr-40">
+						<p>MegaKongs are an expansion of the Megapont Ecosystem on the Ethereum blockchain, launching April
+							11th 2022</p><img src="./index_files/megakongs_hero.png" class="w-full mt-5">
+						<p class="pt-5 mb-10">MegaKongs will carry full membership in Megapont. The utility will be similar
+							to Megapont Apes but proportional to our stance that “Apes are Kings”.</p><a
+							class="bg-megapont-dark hover:bg-opacity-90 rounded-lg text-white p-5 px-10 md:px-15 inline-block"
+							href="https://megakongs.com/" target="_blank"><span class="pl-3 text-sm font-medium">Visit
+								Megakongs</span></a>
+					</div>
+				</div>
+				<hr class="border-dark absolute left-0 right-0">
+			</div>
+			<div class="container mx-auto color-dark-text font-ibm-plex-mono">
+				<div class="md:flex py-20 mx-6 md:mx-10 md:px-0 lg:py-32" id="team">
+					<div class="md:w-1/2 lg:text-right md:flex lg:flex-row-reverse lg:pr-24 relative">
+						<h3 class="pb-5 md:pb-0 text-xl md:text-2xl lg:text-4xl lg:ml-44 font-syne font-bold">THE <span
+								class="lg:w-full md:block">TEAM</span></h3>
+					</div>
+					<div class="md:w-1/2 text-base grid grid-cols-2 lg:grid-cols-3 gap-5">
+						<div class=""><a href="https://twitter.com/megapont" target="_blank"><img
+									src="./index_files/megapont.png">
+								<p class="font-syne font-bold uppercase pt-5">@Megapont</p>
+							</a>
+							<p class=" text-sm">Artist</p>
+						</div>
+						<div class=""><a href="https://twitter.com/mrkmcknz" target="_blank"><img
+									src="./index_files/mark.png">
+								<p class="font-syne font-bold uppercase pt-5">@mrkmcknz</p>
+							</a>
+							<p class=" text-sm">Engineering</p>
+						</div>
+						<div class=""><a href="https://twitter.com/0xMrZeon" target="_blank"><img
+									src="./index_files/mrzeon.png">
+								<p class="font-syne font-bold uppercase pt-5">@MrZeon</p>
+							</a>
+							<p class=" text-sm">Engineering</p>
+						</div>
+						<div class=""><a href="https://twitter.com/Slingerstand" target="_blank"><img
+									src="./index_files/slinger.png">
+								<p class="font-syne font-bold uppercase pt-5">@Slingerstand</p>
+							</a>
+							<p class=" text-sm">Community Moderator</p>
+						</div>
+						<div class=""><a href="https://twitter.com/ListenToFaze" target="_blank"><img
+									src="./index_files/lstntfz.png">
+								<p class="font-syne font-bold uppercase pt-5">@ListenToFaze</p>
+							</a>
+							<p class=" text-sm">Community Moderator</p>
+						</div>
+					</div>
+				</div>
+				<hr class="border-dark absolute left-0 right-0">
+				<div class="py-20 mx-6 md:mx-10 md:px-0 lg:py-32">
+					<div class="md:text-center relative">
+						<div class="w-full md:flex lg:block md:px-10">
+							<div class="md:w-1/2 lg:w-full md:text-left">
+								<h3 class="text-xl md:text-4xl lg:text-center font-syne font-bold md:mx-auto">JOIN OUR
+									DISCORD
+									<!-- --> <span class="lg:w-full lg:block">COMMUNITY</span>
+								</h3>
+							</div>
+							<div class="md:w-1/2 lg:w-full md:text-left lg:text-center">
+								<p class="lg:mt-10 md:mx-auto lg:w-1/3 mb-10">Join our Discord to keep up to date with
+									Megapont!</p><a href="https://discord.com/invite/p2QFXxwbDe" target="_blank"
+									class="bg-megapont-dark hover:bg-opacity-90 rounded-lg text-white p-5 px-10 md:px-15 inline-block"><img
+										src="./index_files/discord-white.svg" class="w-5 inline-block"> <span
+										class="pl-3 text-sm font-medium">Join Discord</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="color-dark-bg lg:flex py-20 font-ibm-plex-mono">
+				<div class="lg:w-1/3 lg:order-2 pt-3"><img class="h-50 mx-auto" src="./index_files/logo.svg"></div>
+				<div class="pt-7 lg:w-1/3 lg:ml-20 lg:order-1 text-center lg:text-left">
+					<p class="text-gray-500 text-sm">Copyright © 2022 Megapont
+						<!-- -->
+					</p>
+				</div>
+				<div class="pt-7 lg:w-1/3 space-x-10 text-center lg:text-right lg:mr-20 lg:order-3"><a
+						href="https://discord.com/invite/p2QFXxwbDe" target="_blank"><img
+							src="./index_files/discord-white.svg" class="h-4 inline-block"></a><a
+						href="https://twitter.com/MegapontNFT" target="_blank"><img src="./index_files/twitter-white.svg"
+							class="h-4 inline-block"></a><a href="https://www.stacks.co/" target="_blank"><img
+							src="./index_files/stacks-white.svg" class="h-4 inline-block"></a><a
+						href="https://medium.com/megapont" target="_blank"><img src="./index_files/medium.svg"
+							class="h-4 inline-block"></a></div>
+			</div>
+		</div>
+		<script id="__NEXT_DATA__"
+			type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"lkI_PPjjH2lmc8yOQFMno","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+		<next-route-announcer>
+			<p aria-live="assertive" id="__next-route-announcer__" role="alert"
+				style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;">
+			</p>
+		</next-route-announcer>
+		<div id="tr-popup" class="tr-popup" translate="no" data-hidden="true" data-invalid="true" data-disabled="false"
+			lang="ru" data-expanded="false" data-menu="false"
+			data-translation="MEGAPONT  - ЭТО клуб членов NFT для пионеров" data-position="top" data-menu-position="right"
+			data-submitted="false" style="top: 199px; left: 445px;">
+			<div class="tr-popup__block"><span class="tr-popup__title_original">Оригинальный текст:</span> <span
+					class="tr-popup__value">MEGAPONT IS AN NFT membership club for pioneers</span></div>
+			<div class="tr-popup__block tr-popup__block_a"><span class="tr-popup__link tr-popup__link_suggest"
+					data-action="expand">Предложить перевод</span><a href="https://translate.yandex.ru/"
+					class="tr-popup__link tr-popup__link_service" target="_blank" data-action="navigate"><span
+						class="tr-popup__logo tr-popup__logo_company"></span><span
+						class="tr-popup__logo tr-popup__logo_service"></span></a></div>
+			<div class="tr-popup__block tr-popup__block_b"><textarea class="tr-popup__input" spellcheck="false"
+					autocapitalize="off" autocorrect="off" autocomplete="off" maxlength="1000"></textarea>
+				<div class="tr-popup__block tr-popup__block_submit"><span role="button"
+						class="tr-popup__button tr-popup__button_submit" data-action="send">Отправить</span></div>
+				<div class="tr-popup__overlay tr-popup__overlay_submitted">Спасибо, перевод отправлен</div>
+			</div><span role="button" class="tr-popup__button tr-popup__button_close" data-action="clickClose"></span><span
+				role="button" class="tr-popup__button tr-popup__button_menu" data-action="clickMenu"><span
+					class="tr-popup__menu" data-action="disablePopup">Отключить подсказку с оригинальным
+					текстом</span></span><span class="tr-popup__arrow"></span>
+		</div>
+	</body>
+	
+	</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/@solana/web3.js@1.29.2/lib/index.iife.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
